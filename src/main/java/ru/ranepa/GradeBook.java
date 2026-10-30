@@ -34,6 +34,6 @@ public class GradeBook {
     }
 
     public String describe() {
-        return "оценки: " + grades + "; средний: " + average();
+        return "оценки: " + grades + " средний балл: " + average();
     }
 }
